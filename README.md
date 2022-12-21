@@ -19,37 +19,37 @@
 
 ---
 
-### [ ] Stage-2: BUILD
+### [ ] Stage-3: BUILD
 
 - Yet to implement
 
 ---
 
-### [ ] Stage-2: TEST
+### [ ] Stage-4: TEST
 
 - Yet to implement
 
 ---
 
-### [ ] Stage-2: RELEASE
+### [ ] Stage-5: RELEASE
 
 - Yet to implement
 
 ---
 
-### [ ] Stage-2: DEPLOY
+### [ ] Stage-6: DEPLOY
 
 - Yet to implement
 
 ---
 
-### [ ] Stage-2: OPERATE
+### [ ] Stage-7: OPERATE
 
 - Yet to implement
 
 ---
 
-### [ ] Stage-2: MONITOR
+### [ ] Stage-8: MONITOR
 
 - Yet to implement
 
