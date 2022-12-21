@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh ;
+    background-color: #24292c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input__containar{
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 50px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.input__containar > input {
+    width: 450px;
+    height: 100%;
+    border: 2px solid #72C2FF;
+    outline: none;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+.input__containar > input::placeholder {
+    opacity: 0.3;
+   font-size: 16px;
+   padding: 0 50px;
+}
+
+.input__containar > button {
+    width: 150px;
+    height: 100%;
+    background-color: #72C2FF;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sports__container {
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sports__container > div:nth-child(odd){
+    background-color: #00A933;
+}
+
+.sports__container > div:nth-child(even){
+    background-color: #C9CF00;
+}
+
+
+
+.sports__container > div{
+    margin: 10px 0;
+}
+
+.sports {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.sports_name {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.delete_icon {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.sports > .delete_icon:nth-child(even):hover{
+    background-color: #C9CF00;
+}
+
+.sports > .delete_icon:nth-child(odd):hover{
+    background-color: #00A933;
+}
