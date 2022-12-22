@@ -34,11 +34,4 @@ const App = () => {
   );
 };
 
-{
-  /* <div className="sports">
-  <div className="sports_name"></div>
-  <span className="delete_icon">X</span>
-</div>; */
-}
-
 export default App;

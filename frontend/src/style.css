@@ -33,13 +33,12 @@
     border: 2px solid #72C2FF;
     outline: none;
     font-weight: 600;
-    padding-left: 50px;
+    text-align: center;
 }
 
 .input__containar > input::placeholder {
-    opacity: 0.3;
+   opacity: 0.3;
    font-size: 16px;
-   padding: 0 50px;
 }
 
 .input__containar > button {
